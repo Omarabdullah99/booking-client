@@ -15,7 +15,7 @@ const PropertyList = () => {
     {
       loading ? ( <h1>Loading</h1>): (
         images.map((img,i)=>(
-          <div className="pListItem">
+          <div className="pListItem" key={i}>
           <img
             src={img}
             alt=""
