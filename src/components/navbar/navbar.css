@@ -16,6 +16,10 @@
     
 }
 
+.others{
+  display: flex;
+}
+
 .logo{
     font-weight: 500;
   }
@@ -27,6 +31,10 @@
     cursor: pointer;
     color: #003580;
   } 
+
+  .navlogout{
+    margin: 17px 10px;
+  }
 
 
   @media (max-width: 768px) {
